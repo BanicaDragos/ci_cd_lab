@@ -1,4 +1,4 @@
-kname: Build CI/CD
+name: Build CI/CD
 on:
   push:
     branches:
