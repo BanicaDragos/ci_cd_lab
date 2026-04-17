@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/banicadragos/ci_cd_lab@sha256:2044e0f8a35fe7dc4c03da49ba2b930d2474fe8e5a2d5d5fb9ba54d919c68010
+          image: ghcr.io/banicadragos/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
