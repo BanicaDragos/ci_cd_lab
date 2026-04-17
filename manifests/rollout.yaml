@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/banicadragos/go-simple-webserver@sha256:5ab0c951fb77a47b33995151c9a873f125217db4687b6d05014e30e59e977257
+          image: ghcr.io/banicadragos/ci_cd_lab@sha256:2044e0f8a35fe7dc4c03da49ba2b930d2474fe8e5a2d5d5fb9ba54d919c68010
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
